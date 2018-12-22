@@ -132,6 +132,7 @@
 // Please choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
   #define MOTHERBOARD BOARD_SAINSMART_2IN1
+//    #define MOTHERBOARD BOARD_RAMPS_13_EEB
 #endif
 
 // Optional custom name for your RepStrap or other custom machine
@@ -612,7 +613,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 50, 1600, 837 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 100, 100, 1600, 837 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -852,8 +853,8 @@
 // @section machine
 
 // Invert the stepper direction. Change (or reverse the motor connector) if an axis goes the wrong way.
-#define INVERT_X_DIR false
-#define INVERT_Y_DIR true
+#define INVERT_X_DIR true
+#define INVERT_Y_DIR false
 #define INVERT_Z_DIR true
 
 // @section extruder

@@ -374,10 +374,12 @@
 #endif
 
 #ifndef X_CS_PIN
-  #define X_CS_PIN -1
+//  #define X_CS_PIN -1
+  #define X_CS_PIN 53
 #endif
 #ifndef Y_CS_PIN
-  #define Y_CS_PIN -1
+//  #define Y_CS_PIN -1
+  #define Y_CS_PIN 49
 #endif
 #ifndef Z_CS_PIN
   #define Z_CS_PIN -1
